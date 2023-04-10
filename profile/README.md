@@ -1,3 +1,3 @@
-# Public Content
+# Dominik Lenhardt IT-Services
 
-This repository holds the public content for a hand full of peoples.
+Wir bieten Unterstützung in den Bereichen IT-Betrieb für klassiche On-Prem Infrastruktur für Windows und Linux, sowie Azure Cloud Lösungen. Dabei liegt unser Fokus auf dem höchstmaß an automatisierung und standardisierung und berücksichtung heutiger IT-Sicherheitsanforderungen.
