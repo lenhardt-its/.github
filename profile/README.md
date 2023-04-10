@@ -1,3 +1,3 @@
 # Dominik Lenhardt IT-Services
 
-Wir bieten Unterstützung in den Bereichen IT-Betrieb für klassiche On-Prem Infrastruktur für Windows und Linux, sowie Azure Cloud Lösungen. Dabei liegt unser Fokus auf dem höchstmaß an automatisierung und standardisierung und berücksichtung heutiger IT-Sicherheitsanforderungen.
+Unsere Expertise erstreckt sich auf die Bereiche IT-Betrieb für klassische On-Prem Infrastrukturen für Windows und Linux sowie auf Azure Cloud Lösungen. Wir konzentrieren uns dabei auf höchstmögliche Automatisierung und Standardisierung, um den aktuellen Anforderungen der IT-Sicherheit gerecht zu werden.
