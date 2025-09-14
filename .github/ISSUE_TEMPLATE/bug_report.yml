@@ -1,0 +1,46 @@
+---
+name: 🐛 Bug Report
+about: Create a report to help us improve the Ansible role
+title: '[BUG] '
+labels: ['bug', 'needs-triage']
+assignees: []
+
+---
+
+## 🐛 Bug Description
+A clear and concise description of what the bug is.
+
+## 🔄 Expected Behavior
+A clear and concise description of what you expected to happen.
+
+## 📋 Current Behavior
+A clear and concise description of what actually happened.
+
+## 🔧 Steps to Reproduce
+Steps to reproduce the behavior:
+1. Configure the role with '...'
+2. Run playbook '...'
+3. See error
+
+## 🌍 Environment
+- **OS**: [e.g. Ubuntu 22.04, RHEL 9]
+- **Ansible Version**: [e.g. 2.15.0]
+- **Role Version**: [e.g. v1.2.3 or commit hash]
+- **Python Version**: [e.g. 3.9.0]
+
+## 📝 Role Configuration
+```yaml
+# Please provide the relevant parts of your playbook/inventory
+# Remove sensitive information
+```
+
+## 📄 Error Output
+```
+# Please paste the full error output here
+```
+
+## 📎 Additional Context
+Add any other context about the problem here, such as:
+- Screenshots
+- Related issues
+- Workarounds you've tried

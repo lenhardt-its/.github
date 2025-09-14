@@ -1,0 +1,33 @@
+---
+name: ❓ Question
+about: Ask a question about using this Ansible role
+title: '[QUESTION] '
+labels: ['question', 'needs-triage']
+assignees: []
+
+---
+
+## ❓ Question
+A clear and concise description of what you want to know.
+
+## 🌍 Context
+Please provide context about what you're trying to achieve:
+- What is your use case?
+- What have you already tried?
+- What documentation have you consulted?
+
+## 🔧 Current Configuration
+```yaml
+# If relevant, show your current role configuration
+# Remove sensitive information
+```
+
+## 🔍 Research Done
+What have you already tried to find the answer?
+- [ ] Checked the README
+- [ ] Searched existing issues
+- [ ] Consulted Ansible documentation
+- [ ] Asked in community forums
+
+## 📎 Additional Context
+Add any other context about your question here.

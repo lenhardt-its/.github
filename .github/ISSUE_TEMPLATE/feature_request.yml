@@ -1,0 +1,38 @@
+---
+name: ✨ Feature Request
+about: Suggest an idea for this Ansible role
+title: '[FEATURE] '
+labels: ['enhancement', 'needs-triage']
+assignees: []
+
+---
+
+## 🚀 Feature Description
+A clear and concise description of the feature you'd like to see added.
+
+## 💡 Motivation
+Why is this feature needed? What problem does it solve?
+
+## 📋 Detailed Description
+Provide a detailed description of how you envision this feature working.
+
+## 🔧 Proposed Implementation
+If you have ideas about how this could be implemented, describe them here:
+- Configuration options needed
+- New tasks or handlers
+- Default values
+- Documentation changes
+
+## 🌍 Use Case
+Describe your specific use case and how this feature would help:
+
+## 📄 Example Configuration
+```yaml
+# Show how you would like to configure this feature
+```
+
+## 🔄 Alternatives Considered
+Have you considered any alternative solutions or workarounds?
+
+## 📎 Additional Context
+Add any other context, screenshots, or examples about the feature request here.

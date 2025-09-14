@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/lenhardt-its/ansible-roles/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: 📧 Support
+    url: mailto:dominik@lenhardt-it.com
+    about: Contact support for urgent issues or private inquiries
+  - name: 🌐 Website
+    url: https://lenhardt-it.com
+    about: Visit our website for more information about our services

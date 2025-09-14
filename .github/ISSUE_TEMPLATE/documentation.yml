@@ -1,0 +1,36 @@
+---
+name: 📚 Documentation
+about: Report an issue with documentation or suggest improvements
+title: '[DOCS] '
+labels: ['documentation', 'needs-triage']
+assignees: []
+
+---
+
+## 📚 Documentation Issue
+A clear and concise description of the documentation issue.
+
+## 📍 Location
+Where is the documentation issue located?
+- [ ] README.md
+- [ ] Task documentation
+- [ ] Variable documentation
+- [ ] Example configurations
+- [ ] Comments in code
+- [ ] Other: _______________
+
+## 🔧 Issue Type
+What type of documentation issue is this?
+- [ ] Information is missing
+- [ ] Information is incorrect
+- [ ] Information is unclear
+- [ ] Information is outdated
+- [ ] Typo or formatting issue
+- [ ] Example doesn't work
+- [ ] Other: _______________
+
+## 💡 Suggested Improvement
+How would you like to see this improved?
+
+## 📄 Additional Context
+Add any other context about the documentation issue here.
