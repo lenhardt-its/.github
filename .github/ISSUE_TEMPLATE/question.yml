@@ -1,33 +1,62 @@
----
 name: ❓ Question
-about: Ask a question about using this Ansible role
+description: Ask a question about using this Ansible role
 title: '[QUESTION] '
 labels: ['question', 'needs-triage']
 assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your question! Please fill out the form below to help us provide the best answer.
 
----
+  - type: textarea
+    id: question
+    attributes:
+      label: ❓ Question
+      description: A clear and concise description of what you want to know.
+      placeholder: What is your question?
+    validations:
+      required: true
 
-## ❓ Question
-A clear and concise description of what you want to know.
+  - type: textarea
+    id: context
+    attributes:
+      label: 🌍 Context
+      description: |
+        Please provide context about what you're trying to achieve:
+        - What is your use case?
+        - What have you already tried?
+        - What documentation have you consulted?
+      placeholder: Provide context for your question...
+    validations:
+      required: true
 
-## 🌍 Context
-Please provide context about what you're trying to achieve:
-- What is your use case?
-- What have you already tried?
-- What documentation have you consulted?
+  - type: textarea
+    id: current-configuration
+    attributes:
+      label: 🔧 Current Configuration
+      description: If relevant, show your current role configuration (remove sensitive information)
+      placeholder: |
+        ```yaml
+        # Your current configuration
+        ```
+      render: yaml
 
-## 🔧 Current Configuration
-```yaml
-# If relevant, show your current role configuration
-# Remove sensitive information
-```
+  - type: checkboxes
+    id: research-done
+    attributes:
+      label: 🔍 Research Done
+      description: What have you already tried to find the answer?
+      options:
+        - label: Checked the README
+        - label: Searched existing issues
+        - label: Consulted Ansible documentation
+        - label: Asked in community forums
+        - label: Checked role defaults and variables
 
-## 🔍 Research Done
-What have you already tried to find the answer?
-- [ ] Checked the README
-- [ ] Searched existing issues
-- [ ] Consulted Ansible documentation
-- [ ] Asked in community forums
-
-## 📎 Additional Context
-Add any other context about your question here.
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 📎 Additional Context
+      description: Add any other context about your question here.
+      placeholder: Additional information...

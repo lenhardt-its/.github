@@ -1,46 +1,122 @@
----
 name: 🐛 Bug Report
-about: Create a report to help us improve the Ansible role
+description: Create a report to help us improve the Ansible role
 title: '[BUG] '
 labels: ['bug', 'needs-triage']
 assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug! Please fill out the form below to help us understand and fix the issue.
 
----
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: 🐛 Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe the bug...
+    validations:
+      required: true
 
-## 🐛 Bug Description
-A clear and concise description of what the bug is.
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: 🔄 Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: What should have happened?
+    validations:
+      required: true
 
-## 🔄 Expected Behavior
-A clear and concise description of what you expected to happen.
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: 📋 Current Behavior
+      description: A clear and concise description of what actually happened.
+      placeholder: What actually happened?
+    validations:
+      required: true
 
-## 📋 Current Behavior
-A clear and concise description of what actually happened.
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: 🔧 Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Configure the role with '...'
+        2. Run playbook '...'
+        3. See error
+    validations:
+      required: true
 
-## 🔧 Steps to Reproduce
-Steps to reproduce the behavior:
-1. Configure the role with '...'
-2. Run playbook '...'
-3. See error
+  - type: dropdown
+    id: os
+    attributes:
+      label: 🌍 Operating System
+      description: What operating system are you using?
+      options:
+        - Ubuntu 20.04
+        - Ubuntu 22.04
+        - Ubuntu 24.04
+        - RHEL 8
+        - RHEL 9
+        - Rocky Linux 8
+        - Rocky Linux 9
+        - AlmaLinux 8
+        - AlmaLinux 9
+        - Debian 11 (Bullseye)
+        - Debian 12 (Bookworm)
+        - Other (please specify in additional context)
+    validations:
+      required: true
 
-## 🌍 Environment
-- **OS**: [e.g. Ubuntu 22.04, RHEL 9]
-- **Ansible Version**: [e.g. 2.15.0]
-- **Role Version**: [e.g. v1.2.3 or commit hash]
-- **Python Version**: [e.g. 3.9.0]
+  - type: input
+    id: ansible-version
+    attributes:
+      label: 📦 Ansible Version
+      description: What version of Ansible are you using?
+      placeholder: "e.g. 2.15.0"
+    validations:
+      required: true
 
-## 📝 Role Configuration
-```yaml
-# Please provide the relevant parts of your playbook/inventory
-# Remove sensitive information
-```
+  - type: input
+    id: role-version
+    attributes:
+      label: 🏷️ Role Version
+      description: What version of the role are you using?
+      placeholder: "e.g. v1.2.3 or commit hash"
+    validations:
+      required: true
 
-## 📄 Error Output
-```
-# Please paste the full error output here
-```
+  - type: textarea
+    id: role-configuration
+    attributes:
+      label: 📝 Role Configuration
+      description: Please provide the relevant parts of your playbook/inventory
+      placeholder: |
+        ```yaml
+        # Please provide your role configuration here
+        # Remove sensitive information
+        ```
+      render: yaml
 
-## 📎 Additional Context
-Add any other context about the problem here, such as:
-- Screenshots
-- Related issues
-- Workarounds you've tried
+  - type: textarea
+    id: error-output
+    attributes:
+      label: 📄 Error Output
+      description: Please paste the full error output here
+      placeholder: |
+        ```
+        # Error output here
+        ```
+      render: shell
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 📎 Additional Context
+      description: |
+        Add any other context about the problem here, such as:
+        - Screenshots
+        - Related issues
+        - Workarounds you've tried
+      placeholder: Additional information...

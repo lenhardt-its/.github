@@ -1,38 +1,83 @@
----
 name: ✨ Feature Request
-about: Suggest an idea for this Ansible role
+description: Suggest an idea for this Ansible role
 title: '[FEATURE] '
 labels: ['enhancement', 'needs-triage']
 assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new feature! Please fill out the form below to help us understand your request.
 
----
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: 🚀 Feature Description
+      description: A clear and concise description of the feature you'd like to see added.
+      placeholder: Describe the feature you'd like to see...
+    validations:
+      required: true
 
-## 🚀 Feature Description
-A clear and concise description of the feature you'd like to see added.
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 💡 Motivation
+      description: Why is this feature needed? What problem does it solve?
+      placeholder: Explain why this feature would be helpful...
+    validations:
+      required: true
 
-## 💡 Motivation
-Why is this feature needed? What problem does it solve?
+  - type: textarea
+    id: detailed-description
+    attributes:
+      label: 📋 Detailed Description
+      description: Provide a detailed description of how you envision this feature working.
+      placeholder: How should this feature work?
+    validations:
+      required: true
 
-## 📋 Detailed Description
-Provide a detailed description of how you envision this feature working.
+  - type: textarea
+    id: proposed-implementation
+    attributes:
+      label: 🔧 Proposed Implementation
+      description: |
+        If you have ideas about how this could be implemented, describe them here:
+        - Configuration options needed
+        - New tasks or handlers
+        - Default values
+        - Documentation changes
+      placeholder: How could this be implemented?
 
-## 🔧 Proposed Implementation
-If you have ideas about how this could be implemented, describe them here:
-- Configuration options needed
-- New tasks or handlers
-- Default values
-- Documentation changes
+  - type: textarea
+    id: use-case
+    attributes:
+      label: 🌍 Use Case
+      description: Describe your specific use case and how this feature would help
+      placeholder: How would you use this feature?
+    validations:
+      required: true
 
-## 🌍 Use Case
-Describe your specific use case and how this feature would help:
+  - type: textarea
+    id: example-configuration
+    attributes:
+      label: 📄 Example Configuration
+      description: Show how you would like to configure this feature
+      placeholder: |
+        ```yaml
+        # Show how you would configure this feature
+        ```
+      render: yaml
 
-## 📄 Example Configuration
-```yaml
-# Show how you would like to configure this feature
-```
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 Alternatives Considered
+      description: Have you considered any alternative solutions or workarounds?
+      placeholder: What alternatives have you considered?
 
-## 🔄 Alternatives Considered
-Have you considered any alternative solutions or workarounds?
-
-## 📎 Additional Context
-Add any other context, screenshots, or examples about the feature request here.
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 📎 Additional Context
+      description: Add any other context, screenshots, or examples about the feature request here.
+      placeholder: Additional information...
